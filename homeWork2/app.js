@@ -26,8 +26,7 @@ const card = document.querySelector(".card");
 
 // }
 
-// let a = countVowels("Bahodir");
+// let result = countVowels("Bahodir");
 
-// console.log(a);
+// console.log(result);
 
-f
