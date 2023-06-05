@@ -62,6 +62,7 @@ const card = document.querySelector(".card");
 
 // card.innerHTML = startsWidth(answer, "o");
 
+
 // function endsWidth(str, search) {
 //     let result = false;
 //     if (str.slice(-search.length) === search) {
@@ -74,6 +75,8 @@ const card = document.querySelector(".card");
 //   let answer = "open";
 
 //   card.innerHTML = endsWidth(answer, "n");
+
+
 
 
   
