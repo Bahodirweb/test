@@ -23,7 +23,7 @@ const card = document.querySelector(".card");
 //     for (let i = 0; i < arr.length - 1; i++) {
 //       arr[i] = arr[i + 1];
 //     }
-//     arr.length = arr.length - 11;
+//     arr.length = arr.length - 1;
 //     return firstItem;
 //   }
 //   let arr=["Oybek","Bahodir","Bexruz"];
@@ -42,17 +42,7 @@ const card = document.querySelector(".card");
 //   card.innerHTML= myUnshift(arr,"Asqar");
 //   card.innerHTML=arr;
 
-// function myMap(arr) {
-//     let result = [];
-//     for (let i in arr) {
-//       result.push(arr[i]*2);
-//     }
-//     return result;
-//   }
 
-//   let numbers = [12, 25, 39, 48, 57];
-//   let square = myMap(numbers);
-//   card.innerHTML=square;
 
 // function mySplit(str, Bahodir) {
 //     let result = [];
@@ -77,21 +67,21 @@ const card = document.querySelector(".card");
 
 
 
-function myJoin(arr, Bahodir) {
-    let result = "";
+// function myJoin(arr, Bahodir) {
+//     let result = "";
     
-    for (let i = 0; i < arr.length; i++) {
-      result += arr[i];
+//     for (let i = 0; i < arr.length; i++) {
+//       result += arr[i];
       
-      if (i !== arr.length - 1) {
-        result += Bahodir;
-      }
-    }
+//       if (i !== arr.length - 1) {
+//         result += Bahodir;
+//       }
+//     }
     
-    return result;
-  }
+//     return result;
+//   }
   
-  let myArray = ["Asqar", "Marat","oybek","Jamshit"];
-  card.innerHTML= myJoin(myArray, " , ");
+//   let myArray = ["Asqar", "Marat","oybek","Jamshit"];
+//   card.innerHTML= myJoin(myArray, " , ");
   
   

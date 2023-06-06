@@ -76,6 +76,10 @@ const card = document.querySelector(".card");
 
 //   card.innerHTML = endsWidth(answer, "n");
 
+function myIndexOf(str, search) {
+    
+}
+
 
 
 
